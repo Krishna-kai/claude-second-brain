@@ -31,10 +31,11 @@ workflows below.
 
 - `raw/` - sources the human drops in (readings, notes, papers, links). You read these. You never change
   them. They are immutable.
-- `wiki/` - the pages YOU write, in plain markdown, linked with `[[page-name]]`. Make a page for something
-  only when two or more other pages would want to link to it; otherwise keep it inline in a page that
-  mentions it. Do not make a page per noun. `wiki/index.md` is your catalog of every page with a one-line
-  summary. Keep it current.
+- `wiki/` - the pages YOU write, in plain markdown, linked with `[[page-name]]`. A page can be anything
+  worth remembering: a topic from a source, a project the human is working on, a person they work with.
+  Link them all. Make a page only when two or more other pages would want to link to it; otherwise keep it
+  inline in a page that mentions it. Do not make a page per noun. `wiki/index.md` is your catalog of every
+  page with a one-line summary. Keep it current.
 - `log.md` - an append-only history. Add a line each time you ingest a source, save an answer, or lint.
 
 How to load all this as it grows is its own short contract: see `CLOTH.md`. Short version: read
