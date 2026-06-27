@@ -21,9 +21,10 @@ rather than leaning on one generic search.
    sources.
 4. **Check freshness and agreement.** Prefer recent, primary, and reputable sources. Note where sources
    disagree or where information looks dated. Say how current your answer is.
-5. **Synthesise and save.** Write the findings into the wiki as a page, linked with `[[...]]`, every source
-   cited (title, link, and the date you searched). Note the angles you searched, so the next sweep can
-   refine them instead of starting over. Update `wiki/index.md`, add a line to `log.md`.
+5. **Synthesise and save.** Write the findings into the wiki as a page, every source cited (title, link, and
+   the date you searched). Note the angles you searched, so the next sweep can refine them instead of
+   starting over. Then follow the saving rule in `CLAUDE.md`: into `wiki/index.md`, a `log.md` line, and
+   linked from at least one existing page so it is not an orphan.
 
 The difference from a quick search: several angles, several sources, your own wiki, freshness checked, and
 the result saved so it compounds.

@@ -12,7 +12,9 @@ Use this when the human says "make me a skill that does X," or describes a repea
 2. Write a new file `skills/<name>.md` (a short, lowercase, hyphenated name). Follow the shape of the
    skills already here: a one-line purpose, a "use this when" line, and a short numbered list of steps.
 3. Keep it plain and small. A skill is a workflow, not a program. Reuse the wiki the way the other skills
-   do: read `wiki/index.md` first, save useful results back as pages, log what you did.
+   do: read `wiki/index.md` first. If the skill saves anything to the wiki, make it follow the saving rule
+   in `CLAUDE.md` (add to `index.md`, add a `log.md` line, link it from a real page) so a new skill cannot
+   quietly create orphans.
 4. Add a line for it in `skills/README.md` so it is listed, then tell the human it is ready and how to
    trigger it.
 

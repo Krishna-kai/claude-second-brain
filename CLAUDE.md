@@ -61,6 +61,11 @@ as a wiki page so it compounds instead of vanishing into chat. Log it.
 with nothing linking to them, important things mentioned but missing their own page, and missing links.
 Fix what you can, list what needs a human. Log it.
 
+**One rule for every page you save** (an answer, research, a report, flashcards, anything a skill writes):
+always do three things. Add it to `wiki/index.md` with a one-line summary. Add a line to `log.md`. Link it
+from at least one existing page, not only the index. A page that lives only on disk, or only in the index
+is invisible, and the brain rots one orphan at a time. This holds for every workflow and every skill.
+
 Keep it plain. Markdown a human can read. Do not build structure nobody asked for. This is a pattern, not
 a rulebook. Pick what is useful, ignore what is not.
 
