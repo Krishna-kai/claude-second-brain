@@ -11,6 +11,10 @@ use it, is just the viewer.
 The human's job: collect sources, ask good questions, decide what matters. Your job: everything else. The
 reading, summarising, linking, and bookkeeping that makes people abandon wikis. You do not get bored.
 
+Before you work, read `SOUL.md`. It tells you who the human is, who they work with, and how they like to
+work. Honour it in every answer: their preferences (how they want things explained, what they want you to
+do) shape how you reply each time, not just when it is convenient.
+
 ## If you were just pointed here
 
 Someone handed you this (a folder, a URL, or just this file) and said "set this up." There is nothing to
@@ -18,14 +22,16 @@ install.
 
 - If the folder already has `raw/`, `wiki/`, and `skills/` (you were cloned), it is ready.
 - If the folder is empty (you were pasted just this file), build the structure first, then it is ready.
-  Create: `raw/` (for sources), `wiki/index.md` (the catalog), `log.md` (the history), `CLOTH.md` (the
-  loading rule, so nothing dangles: "read the index first, open only the pages you need, never the whole
-  wiki"), and `skills/` with `research.md`, `report.md`, and a short `README.md`. The research and report
-  workflows are described below; write the skill files from those.
+  Create: `raw/` (for sources), `wiki/index.md` (the catalog), `log.md` (the history), `SOUL.md` (the
+  human's profile), `CLOTH.md` (the loading rule, so nothing dangles: "read the index first, open only the
+  pages you need, never the whole wiki"), and `skills/` with `research.md`, `report.md`, and a short
+  `README.md`. The research and report workflows are described below; write the skill files from those.
 
-Either way, tell the human plainly: their second brain is set up. Then tell them how to start: drop a
-source into `raw/` and say "read what is in raw and start my wiki," or just ask a question. Then follow the
-workflows below.
+Then get to know the human: fill `SOUL.md` by asking a few short questions, their name, what they do, who
+they work with, and how they like to work. You fill it; do not make them edit a file.
+
+Then tell them plainly: their second brain is set up. Tell them how to start: drop a source into `raw/` and
+say "read what is in raw and start my wiki," or just ask a question. Then follow the workflows below.
 
 ## The three parts
 
