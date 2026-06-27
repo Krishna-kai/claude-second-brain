@@ -29,8 +29,8 @@ skills idea, and the soul.md pattern, credited.
 
 ## Rules to work by (do not skip these)
 
-- **Public repo.** Never commit client names, secrets, personal paths, or anything private. Scan before
-  every commit: `grep -rIinE 'secret|password|/Users/|service_role' . --exclude-dir=.git`.
+- **Public repo.** Never commit client names, secrets, personal paths, or anything private. Scan every
+  commit for API keys, passwords, private keys, and personal file paths, and fix any hit before pushing.
 - **No em dashes.** Hyphens, commas, full stops. House rule. Check before every commit.
 - **Test before you claim.** For any new skill or behaviour, spawn a FRESH agent, give it only the folder and
   a real request, have it use the kit cold and return a blunt PASS/FAIL with gaps. Fix the gaps. Never write
