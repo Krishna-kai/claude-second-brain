@@ -7,24 +7,17 @@ studying, research, or any learning work.
 
 ## Start
 
-**The fastest way.** Install Claude Code, then paste this to it and say "set this up":
+**What you need:** Claude Code (the agent, a Claude subscription) and Obsidian (the viewer, free). If you
+already have one of them, or want the full walkthrough, see [SETUP.md](SETUP.md).
 
-> https://github.com/Krishna-kai/claude-second-brain
+1. In Claude Code, paste this and say **"set up my second brain"**:
+   `https://github.com/Krishna-kai/claude-second-brain`
+   Claude clones it (or builds it for you) and tells you it is ready. Nothing to configure.
+2. Open that same folder in Obsidian (**File -> Open folder as vault**) to see your wiki and its graph.
+3. Drop a source into `raw/` (a reading, a PDF, your notes) and say **"read what is in raw and start my
+   wiki."** Then ask it questions, say "add this" as you collect more, or "lint my wiki" to tidy up.
 
-Claude sets it up, by cloning it or building it for you, then tells you how to begin. No terminal needed.
-There is nothing to install or configure. It is ready in one step, just waiting for your first source.
-
-**Or do it yourself:**
-
-1. Install Claude Code (it needs a Claude subscription).
-2. Get this folder and open it in Claude Code:
-   `git clone https://github.com/Krishna-kai/claude-second-brain my-brain`
-3. Drop a few sources into `raw/` (lecture notes, an article, a PDF, your own rough notes).
-4. Say: **"read what is in raw and start my wiki."** Then ask it questions, or say "add this" as you
-   collect more. To tidy up later, say "lint my wiki."
-
-Claude builds the wiki in `wiki/`, keeps an index, and remembers between sessions. You collect and ask; it
-does the reading, linking, and bookkeeping.
+Claude maintains the brain; Obsidian is your window into it. Plain markdown, yours, no lock-in.
 
 ## Credit
 
