@@ -31,6 +31,14 @@ skills idea, and the soul.md pattern, credited.
 - Full end-to-end run: all eight steps (setup, SOUL, ingest, query, research, deep-search, skill-creator,
   report, lint) passed on one cold clone; the brain stayed consistent (index complete, 0 dangling links,
   SOUL shaped every answer). The one gap it found is fixed (the saving rule below).
+- Front door hardened against weaker models. README and SETUP give the agent an explicit `git clone ... .`
+  command (not just a description), the default branch is `main` so the conventional raw URL resolves, and
+  the Start prose points at the exact command. Verified with a deliberately literal agent: it clones to the
+  top level, no subfolder. What no agent test can replace: a real human installing the apps and pasting the
+  URL. That run is the last proof.
+- Content checked with the vault's own scorers (`content-check`, `readability-check`, `brand-voice-generator`,
+  `claim-verifier`): README, SETUP, and the Docker guide all PASS voice, PUBLISH content, READABLE, and
+  CREDIBLE claims (all in the 90s).
 
 ## Rules to work by (do not skip these)
 
