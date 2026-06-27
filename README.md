@@ -1,8 +1,9 @@
 # Second Brain
 
-A second brain you build with Claude Code. You collect sources, Claude reads them and keeps a living,
-linked wiki of what they say, so it remembers and gets sharper as you go. It works for studying, research,
-or any learning work.
+A second brain you build with Claude Code. You collect sources; Claude reads them and keeps a living,
+linked wiki of what they say, so it remembers and gets sharper as you go. You are the architect, asking
+the questions and deciding what matters. Claude does the reading, linking, and filing. It works for
+studying, research, or any learning work.
 
 ## Start
 
@@ -10,8 +11,8 @@ or any learning work.
 
 > https://github.com/Krishna-kai/claude-second-brain
 
-Claude clones it and tells you how to begin. No terminal needed. There is nothing to install or
-configure, it is ready the moment it is cloned. It is just waiting for your first source.
+Claude sets it up, by cloning it or building it for you, then tells you how to begin. No terminal needed.
+There is nothing to install or configure. It is ready in one step, just waiting for your first source.
 
 **Or do it yourself:**
 

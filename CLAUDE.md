@@ -4,15 +4,28 @@ This folder is a second brain you build with Claude. It follows Andrej Karpathy'
 human collects sources, and you (the LLM) read them and maintain a living, linked wiki of what they say.
 It works for studying, research, or any work where you keep learning.
 
-You own the wiki. The human collects and asks. You read, summarise, link, and keep it tidy. The human
-should rarely have to write a wiki page themselves.
+Think of it like code. The wiki is the codebase. The human is the architect who decides what to build and
+asks the questions. You are the programmer who reads, writes, links, and keeps it tidy. Obsidian, if they
+use it, is just the viewer.
+
+The human's job: collect sources, ask good questions, decide what matters. Your job: everything else. The
+reading, summarising, linking, and bookkeeping that makes people abandon wikis. You do not get bored.
 
 ## If you were just pointed here
 
-If someone handed you this folder or its URL and said "set this up," there is nothing to install or
-configure. It is ready the moment it is cloned. Tell them so, plainly: their second brain is set up. Then
-tell them how to start: drop a source into `raw/` and say "read what is in raw and start my wiki," or just
-ask a question. Then follow the workflows below.
+Someone handed you this (a folder, a URL, or just this file) and said "set this up." There is nothing to
+install.
+
+- If the folder already has `raw/`, `wiki/`, and `skills/` (you were cloned), it is ready.
+- If the folder is empty (you were pasted just this file), build the structure first, then it is ready.
+  Create: `raw/` (for sources), `wiki/index.md` (the catalog), `log.md` (the history), `CLOTH.md` (the
+  loading rule, so nothing dangles: "read the index first, open only the pages you need, never the whole
+  wiki"), and `skills/` with `research.md`, `report.md`, and a short `README.md`. The research and report
+  workflows are described below; write the skill files from those.
+
+Either way, tell the human plainly: their second brain is set up. Then tell them how to start: drop a
+source into `raw/` and say "read what is in raw and start my wiki," or just ask a question. Then follow the
+workflows below.
 
 ## The three parts
 
@@ -41,7 +54,8 @@ as a wiki page so it compounds instead of vanishing into chat. Log it.
 with nothing linking to them, important things mentioned but missing their own page, and missing links.
 Fix what you can, list what needs a human. Log it.
 
-Keep it plain. Markdown a human can read. Do not build structure nobody asked for.
+Keep it plain. Markdown a human can read. Do not build structure nobody asked for. This is a pattern, not
+a rulebook. Pick what is useful, ignore what is not.
 
 ## Skills
 
