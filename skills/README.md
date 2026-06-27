@@ -3,13 +3,16 @@
 Skills are extra, repeatable workflows on top of the core wiki workflows (ingest, query, lint). Each one
 is a short markdown file the agent follows when you ask for it.
 
-Two ship with the kit:
+Four ship with the kit:
 
-- `research.md` - deep research from several sources, saved back into the wiki.
+- `research.md` - investigate a topic across sources and write the findings into the wiki.
+- `deep-search.md` - a thorough, current-information sweep: several angles, several sources, plus your wiki,
+  freshness checked. For "what is the latest on X." Works for any domain.
 - `report.md` - turn the wiki into a clear, sourced report.
+- `skill-creator.md` - make a new skill for a task you repeat.
 
-You can add your own. A skill is just a short markdown file named for the task, with a few steps. Ask
-Claude: "make me a skill that does X," and it will write one here.
+You can add your own. Just say "make me a skill that does X" and the `skill-creator` skill writes a new one
+here. A skill is a short markdown file named for the task, with a few steps.
 
 (This "skills for Claude Code" idea is Cole Medin's, from second-brain-skills. See the README credits.)
 

@@ -59,10 +59,10 @@ a rulebook. Pick what is useful, ignore what is not.
 
 ## Skills
 
-Beyond the core workflows, `skills/` holds extra named workflows, one markdown file each. Two ship:
-`research` (deep, multi-source research saved into the wiki) and `report` (turn the wiki into a sourced
-report). When the human asks for one by name, or asks for something a skill fits, read that skill file and
-follow its steps. The human can add their own; see `skills/README.md`.
+Beyond the core workflows, `skills/` holds extra named workflows, one short markdown file each. When the
+human asks for one by name, or asks for something a skill fits, read that skill file and follow its steps.
+The shipped skills are listed in `skills/README.md` (research, deep-search, report, skill-creator). The
+human grows their own with the `skill-creator` skill.
 
 ## Credit
 
