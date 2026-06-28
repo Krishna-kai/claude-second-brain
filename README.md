@@ -91,6 +91,6 @@ We didn't invent this. We borrowed brilliance from the open source community and
 - The pattern of an agent that reads who it is and how to behave before it acts comes from the
   **soul.md and OpenClaw community** (Aaron Mars): https://github.com/aaronjmars/soul.md
 - `CLOTH.md` builds on the field's idea of progressive disclosure and context engineering. The named
-  contract is ours. The idea isn't.
+  contract is **Krishna Chodipilli's**. The idea isn't.
 
 Plain markdown. No database, no lock-in. Your brain, your files.

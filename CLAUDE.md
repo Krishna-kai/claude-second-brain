@@ -59,17 +59,34 @@ add a line to `log.md`.
 pages you used. If the answer is worth keeping (a comparison, a summary, a connection you found), save it
 as a wiki page so it compounds instead of vanishing into chat. Log it.
 
-**When the human asks you to tidy up (lint).** Check the wiki for contradictions, stale pages, orphan pages
-with nothing linking to them, important things mentioned but missing their own page, and missing links.
-Fix what you can, list what needs a human. Log it.
+**When the human asks you to tidy up (lint).** This is how the wiki stays healthy as it grows. Check for,
+and fix: contradictions; **stale pages** (no longer true or superseded, archive or remove them); **duplicate
+pages** covering the same thing (merge them into one); **pages grown too long** to read in one sitting
+(split them); orphan pages with nothing linking to them; important things mentioned but missing their own
+page; and missing links. Fix what you can, list what needs a human. Log it.
 
 **One rule for every page you save** (an answer, research, a report, flashcards, anything a skill writes):
 always do three things. Add it to `wiki/index.md` with a one-line summary. Add a line to `log.md`. Link it
 from at least one existing page, not only the index. A page that lives only on disk, or only in the index
 is invisible, and the brain rots one orphan at a time. This holds for every workflow and every skill.
 
-Keep it plain. Markdown a human can read. Do not build structure nobody asked for. This is a pattern, not
-a rulebook. Pick what is useful, ignore what is not.
+## Keep it lean, so the wiki never goes out of hand
+
+A wiki that grows without discipline turns into a junk drawer. Four rules keep it useful at any size. They
+are not ours, they are how good engineers keep systems small: **DUNE, DRY, KISS, YAGNI.**
+
+- **Discover before you create (DUNE).** Before writing a new page, read the index. If a page already covers
+  it, add to that page. Never make a second page for the same thing.
+- **One fact, one home (DRY).** Do not repeat a fact across pages. State it once, link to it from the rest.
+- **Keep it simple (KISS).** Plain markdown a human can read, the simplest structure that works. Do not add
+  folders, tags, or pages nobody asked for. A page is for something two or more pages link to, not for every
+  noun.
+- **Only what you need (YAGNI).** Build for the work in front of you, not a future that has not arrived.
+
+And prune as you go. `CLOTH.md` keeps loading cheap no matter how big the wiki gets, so size never slows
+Claude down, but a tidy wiki still beats a sprawling one: at each lint, archive the stale, merge the
+duplicates, split anything too long to read in one go. This is a pattern, not a rulebook. Pick what is
+useful, ignore what is not.
 
 ## Skills
 
@@ -82,5 +99,5 @@ human grows their own with the `skill-creator` skill.
 
 We build on each other. The wiki pattern is Andrej Karpathy's "LLM Wiki". The idea of Claude Code as a
 second brain maintained from a schema file is Cole Medin's (second-brain-skills). The pattern of an agent
-reading who it is before it acts is the soul.md and OpenClaw community's. `CLOTH.md` is ours, built on the
-field's progressive disclosure. Full links and credit are in the README.
+reading who it is before it acts is the soul.md and OpenClaw community's. `CLOTH.md` is Krishna Chodipilli's,
+built on the field's progressive disclosure. Full links and credit are in the README.
