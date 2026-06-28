@@ -1,44 +1,44 @@
 # Second Brain
 
-A second brain for your work, built with Claude Code. You collect sources and notes; Claude reads them and
-keeps a living, linked wiki of what they say, the projects you're working on, and the people you work
-with, so it remembers and gets sharper as you go.
-
-It's skills-first. Use Claude's built-in skills, or build your own with `skill-creator`. A small contract,
-`CLOTH.md`, means Claude loads only the one skill and the few pages a task needs, never the whole brain, so
-it stays fast and uncluttered however big it grows.
-
-You're the architect, asking the questions and deciding what matters. Claude does the reading, linking,
-and filing. Good for studying, research, or any work where you want your agent to remember.
+An open, local AI second brain you run with Claude Code and Obsidian. You collect your sources; Claude reads
+them and keeps a living, linked wiki of what they say, the projects you're working on, and the people you
+work with, so it remembers and gets sharper as you go. Good for research, consulting, or any work where you
+want your agent to remember. Plain markdown, yours, no lock-in.
 
 *Sharing this with a colleague? A one-page overview to hand on is in [docs/QUICKSTART.md](docs/QUICKSTART.md).*
 
-## Start
+## Start (about five minutes)
 
-**What you need:** Claude Code (the agent, a Claude subscription) and Obsidian (the viewer, free). New to
-either, or want the full walkthrough? See [SETUP.md](SETUP.md).
+You need **Claude Code** (the agent, needs a Claude subscription) and **Obsidian** (the viewer, free). New
+to either, or want the per-situation walkthrough? See [SETUP.md](SETUP.md).
 
-In Claude Code, paste this and say **"set up my second brain"**:
+1. **Make a new, empty folder** for your brain and open Claude Code in it. (A fresh folder keeps things tidy
+   and lets setup run cleanly.)
+2. **Paste this and say "set up my second brain":**
+   > https://github.com/Krishna-kai/claude-skills-second-brain
+   Claude clones the kit into your folder and tells you it's ready. Nothing to configure.
+3. **Open that same folder in Obsidian** (File -> Open folder as vault) to see your wiki and its graph.
+4. **Drop a source into `raw/`** (a reading, a PDF, your notes) and say **"read what's in raw and start my
+   wiki."** Then ask questions, say "add this" as you collect more, or "lint my wiki" to tidy up.
 
-> https://github.com/Krishna-kai/claude-skills-second-brain
-
-Claude does the rest: it runs the clone command below, then tells you it's ready. Nothing to configure.
+Claude maintains the brain; Obsidian is your window into it.
 
 > **If you're the Claude agent reading this:** the user wants their second brain set up. Your first action
 > is to run exactly this in their current folder:
 > ```
 > git clone https://github.com/Krishna-kai/claude-skills-second-brain.git . && ls
 > ```
-> The trailing `.` clones into this folder, not a subfolder. If the folder isn't empty, ask before cloning.
-> Then read `CLAUDE.md` and follow its "If you were just pointed here" setup.
+> The trailing `.` clones into this folder, not a subfolder. If the folder isn't empty, ask the user to open
+> you in a new empty folder first. Then read `CLAUDE.md` and follow its "If you were just pointed here" setup.
 
-Then:
+## How it works
 
-1. Open that same folder in Obsidian (**File -> Open folder as vault**) to see your wiki and its graph.
-2. Drop a source into `raw/` (a reading, a PDF, your notes) and say **"read what's in raw and start my
-   wiki."** Then ask it questions, say "add this" as you collect more, or "lint my wiki" to tidy up.
+It's skills-first. Use Claude's built-in skills, or build your own with `skill-creator`. A small contract,
+`CLOTH.md`, means Claude loads only the one skill and the few pages a task needs, never the whole brain, so
+it stays fast and uncluttered however big it grows.
 
-Claude maintains the brain; Obsidian is your window into it. Plain markdown, yours, no lock-in.
+You're the architect, asking the questions and deciding what matters. Claude does the reading, linking, and
+filing, the part that makes people abandon their notes.
 
 ## Credit
 
